@@ -8,14 +8,14 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Soft lavender pastel background */
-    --background: 270 25% 97%;
+    /* Custom purple pastel background #e5dafe */
+    --background: 258 73% 93%;
     --foreground: 225 30% 12%;
 
-    --card: 270 30% 98%;
+    --card: 258 60% 96%;
     --card-foreground: 225 30% 12%;
 
-    --popover: 270 30% 98%;
+    --popover: 258 60% 96%;
     --popover-foreground: 225 30% 12%;
 
     /* Navy primary with elegant styling */
@@ -24,11 +24,11 @@ All colors MUST be HSL.
     --primary-light: 225 50% 25%;
     --primary-lighter: 225 30% 45%;
 
-    /* Soft lavender secondary */
-    --secondary: 270 20% 94%;
+    /* Matching purple secondary */
+    --secondary: 258 50% 91%;
     --secondary-foreground: 225 30% 12%;
 
-    --muted: 270 15% 95%;
+    --muted: 258 40% 90%;
     --muted-foreground: 225 15% 55%;
 
     /* Gold accent for highlights */
@@ -45,7 +45,7 @@ All colors MUST be HSL.
 
     /* Portfolio-specific tokens */
     --gradient-hero: linear-gradient(135deg, hsl(225 60% 15%), hsl(225 50% 25%));
-    --gradient-section: linear-gradient(180deg, hsl(270 25% 98%), hsl(270 15% 95%));
+    --gradient-section: linear-gradient(180deg, hsl(258 60% 95%), hsl(258 40% 90%));
     --shadow-elegant: 0 10px 30px -10px hsl(225 60% 15% / 0.2);
     --shadow-card: 0 4px 20px -2px hsl(225 60% 15% / 0.1);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
